@@ -1,0 +1,125 @@
+html {
+  scroll-behavior: smooth;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #40bcb8;
+}
+
+.bgcolor {
+  background-color: #40bcb8;
+}
+
+.bgdark {
+  background-color: #1d2b4e;
+}
+
+.titleName {
+  padding-left: 20px;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.nav-item {
+  color: #1d2b4e;
+  font-size: 24px;
+}
+
+/* .reg {
+  z-index: -10;
+} */
+
+/* .temp {
+  z-index: 10;
+} */
+
+.reg {
+  display: inline-flex;
+  width: 900px;
+}
+
+.qr {
+  width: 400px;
+  height: 400px;
+  cursor: pointer;
+}
+
+.hero {
+  padding: 100px 0;
+  background-image: url("https://via.placeholder.com/1920x600");
+  background-size: cover;
+  background-position: center;
+}
+
+.flexy {
+  display: flex;
+  flex-direction: row;
+  column-gap: 1rem;
+  width: 100%;
+  justify-content: center;
+}
+
+.about,
+.events {
+  text-align: center;
+}
+
+.card img {
+  height: 500px;
+  object-fit: cover;
+}
+
+.fee {
+  margin: auto;
+  justify-content: center;
+  justify-items: center;
+  padding-right: 10px;
+  border-right: 1px solid black;
+}
+
+.fees {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-items: right;
+  font-size: 27px;
+}
+
+.text {
+  margin: auto;
+}
+
+/* .start {
+  background-color: white;
+} */
+
+.bgimg {
+  /* making blur */
+  filter: blur(3px);
+  z-index: -10;
+  height: 700px;
+}
+
+.heading {
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.head {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.events {
+  color: #40bcb8;
+}
